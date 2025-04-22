@@ -1,115 +1,40 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-#projects, #contact, body, section {
-  background-color: #FFC0CB; /* Soft pink background */
-  padding: 20px;
-  font-size: 16px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  background-color: #FFC0CB; /* Pink background for dropdown */
-}
-
-.dropdown ul {
-  display: none;
-  position: absolute;
-  background-color: #FFC0CB; /* Pink background for dropdown items */
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFC0CB;
-}
-
-.menu-icon, .menu {
-  background-color: #FFC0CB;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  /* 確保列表顯示 */
-}
-
-nav:hover ul {
-  display: block; /* 懸停顯示列表 */
-}
-
-nav ul li {
-  margin: 0;
-  padding: 0;
-}
-
-
-.menu {
-  display: none;
-  list-style-type: none;
-}
-
-
-.menu-icon {
-  order: 2;
-  display: block;
-  cursor: pointer;
-}
-
-nav ul:first-child {
-  order: 1;
-}
-
-.menu-icon:hover + .menu, .menu:hover, .dropdown:hover ul, .dropdown-content:hover {
-  display: block;
-  position: absolute;
-  background-color: #FFC0CB;
-  padding: 10px;
-  border: 1px solid #333;
-}
-
-nav ul li a {
+body {
+  background-color: #ffe4e1;
   color: #333;
-  text-decoration: none;
+}
+header, footer {
+  background-color: #ffc0cb;
+  color: white;
+  padding: 1rem 0;
 }
 
-header {
-  background-color: #f4f4f4;
-  padding: 20px;
-  text-align: center;
+h1, h2, h3 {
+  color: #d87093;
 }
 
-h1, h2 {
-  color: #333;
-  background-color: #FFB6C1; /* Set a different pink color */
-  border: 2px solid #FFFFFF; /* Add white border */
-  padding: 10px;
-  display: inline-block;
+.navbar-light .navbar-brand,
+.navbar-light .nav-link {
+  color: #d87093;
 }
 
-
-.project {
-  margin-bottom: 15px;
+.card {
+  border: 1px solid #ffc0cb;
 }
 
-.project h3 {
-  margin: 0;
+.card-title {
+  color: #c71585;
 }
 
-.project p {
-  margin: 5px 0;
+.card-text {
+  color: #e75480;
 }
 
-.profile-picture {
-  width: 120px; /* 放大圖片尺寸 */
-  height: auto;
-  border-radius: 50%;
-  display: block;
-  margin: 10px auto;
+button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #ff1493;
 }
